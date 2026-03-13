@@ -2,7 +2,7 @@
 
 A month-end close management tool that **automates journal entry generation** from source data, tracks close task completion, and measures close cycle performance. Demonstrates how process automation transforms the monthly close from a manual, error-prone process into a streamlined, data-driven workflow.
 
-**🔗 [Live Demo](https://smartclose-journal-automation.streamlit.app)**
+**🔗 [Live Demo](https://smartclose-journal-myyjaxt9re47btt5ldw8ug.streamlit.app)**
 
 ![Built with Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-ff4b4b?logo=streamlit)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776ab?logo=python)
