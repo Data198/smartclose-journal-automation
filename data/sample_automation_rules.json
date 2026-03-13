@@ -1,0 +1,128 @@
+{
+  "rules": [
+    {
+      "rule_id": "RULE-001",
+      "name": "Annual Subscription Deferral",
+      "description": "Defer annual subscription billings and recognize 1/12 monthly",
+      "trigger": {
+        "transaction_type": "subscription_billing",
+        "product_pattern": "*Annual*"
+      },
+      "journal_entry": {
+        "on_billing": [
+          {
+            "account": "1200 - Accounts Receivable",
+            "type": "debit",
+            "amount": "full"
+          },
+          {
+            "account": "2400 - Deferred Revenue",
+            "type": "credit",
+            "amount": "full"
+          }
+        ],
+        "on_recognition": [
+          {
+            "account": "2400 - Deferred Revenue",
+            "type": "debit",
+            "amount": "monthly_proration"
+          },
+          {
+            "account": "4100 - Subscription Revenue",
+            "type": "credit",
+            "amount": "monthly_proration"
+          }
+        ]
+      }
+    },
+    {
+      "rule_id": "RULE-002",
+      "name": "Monthly Subscription Recognition",
+      "description": "Recognize monthly subscriptions immediately upon billing",
+      "trigger": {
+        "transaction_type": "subscription_billing",
+        "product_pattern": "*Monthly*"
+      },
+      "journal_entry": {
+        "on_billing": [
+          {
+            "account": "1200 - Accounts Receivable",
+            "type": "debit",
+            "amount": "full"
+          },
+          {
+            "account": "4100 - Subscription Revenue",
+            "type": "credit",
+            "amount": "full"
+          }
+        ]
+      }
+    },
+    {
+      "rule_id": "RULE-003",
+      "name": "Usage-Based Revenue",
+      "description": "Recognize usage-based charges in the period incurred",
+      "trigger": {
+        "transaction_type": "usage_billing"
+      },
+      "journal_entry": {
+        "on_billing": [
+          {
+            "account": "1200 - Accounts Receivable",
+            "type": "debit",
+            "amount": "full"
+          },
+          {
+            "account": "4200 - Usage Revenue",
+            "type": "credit",
+            "amount": "full"
+          }
+        ]
+      }
+    },
+    {
+      "rule_id": "RULE-004",
+      "name": "Service Revenue Recognition",
+      "description": "Recognize service revenue upon completion of delivery",
+      "trigger": {
+        "transaction_type": "service_billing"
+      },
+      "journal_entry": {
+        "on_billing": [
+          {
+            "account": "1200 - Accounts Receivable",
+            "type": "debit",
+            "amount": "full"
+          },
+          {
+            "account": "4300 - Services Revenue",
+            "type": "credit",
+            "amount": "full"
+          }
+        ]
+      }
+    },
+    {
+      "rule_id": "RULE-005",
+      "name": "Refund Processing",
+      "description": "Reverse revenue and reduce receivable for refunds",
+      "trigger": {
+        "transaction_type": "subscription_refund"
+      },
+      "journal_entry": {
+        "on_billing": [
+          {
+            "account": "4100 - Subscription Revenue",
+            "type": "debit",
+            "amount": "full_abs"
+          },
+          {
+            "account": "1200 - Accounts Receivable",
+            "type": "credit",
+            "amount": "full_abs"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "close_period": "2025-01",
+  "tasks": [
+    {
+      "id": "T-001",
+      "name": "Close Sub-Ledger: Accounts Receivable",
+      "category": "Sub-Ledger Closes",
+      "owner": "Revenue Team",
+      "target_day": 1,
+      "status": "complete",
+      "actual_day": 1
+    },
+    {
+      "id": "T-002",
+      "name": "Close Sub-Ledger: Deferred Revenue",
+      "category": "Sub-Ledger Closes",
+      "owner": "Revenue Team",
+      "target_day": 1,
+      "status": "complete",
+      "actual_day": 1
+    },
+    {
+      "id": "T-003",
+      "name": "Run Automated Journal Entries",
+      "category": "Journal Entries",
+      "owner": "Revenue Team",
+      "target_day": 1,
+      "status": "complete",
+      "actual_day": 1
+    },
+    {
+      "id": "T-004",
+      "name": "Review & Post Automated JEs",
+      "category": "Journal Entries",
+      "owner": "Senior Accountant",
+      "target_day": 2,
+      "status": "complete",
+      "actual_day": 2
+    },
+    {
+      "id": "T-005",
+      "name": "Prepare Manual Adjusting Entries",
+      "category": "Journal Entries",
+      "owner": "Senior Accountant",
+      "target_day": 2,
+      "status": "complete",
+      "actual_day": 2
+    },
+    {
+      "id": "T-006",
+      "name": "Post Manual Adjusting Entries",
+      "category": "Journal Entries",
+      "owner": "Revenue Manager",
+      "target_day": 2,
+      "status": "complete",
+      "actual_day": 2
+    },
+    {
+      "id": "T-007",
+      "name": "Reconcile Accounts Receivable",
+      "category": "Reconciliations",
+      "owner": "Revenue Team",
+      "target_day": 2,
+      "status": "complete",
+      "actual_day": 2
+    },
+    {
+      "id": "T-008",
+      "name": "Reconcile Deferred Revenue",
+      "category": "Reconciliations",
+      "owner": "Revenue Team",
+      "target_day": 2,
+      "status": "complete",
+      "actual_day": 3
+    },
+    {
+      "id": "T-009",
+      "name": "Reconcile Contract Assets",
+      "category": "Reconciliations",
+      "owner": "Senior Accountant",
+      "target_day": 3,
+      "status": "under_review",
+      "actual_day": 3
+    },
+    {
+      "id": "T-010",
+      "name": "Revenue Flux Analysis - MoM",
+      "category": "Flux Analysis",
+      "owner": "Senior Accountant",
+      "target_day": 3,
+      "status": "in_progress",
+      "actual_day": null
+    },
+    {
+      "id": "T-011",
+      "name": "Revenue Flux Analysis - Budget vs Actual",
+      "category": "Flux Analysis",
+      "owner": "Senior Accountant",
+      "target_day": 3,
+      "status": "not_started",
+      "actual_day": null
+    },
+    {
+      "id": "T-012",
+      "name": "Prepare Management Revenue Report",
+      "category": "Management Reporting",
+      "owner": "Revenue Manager",
+      "target_day": 4,
+      "status": "not_started",
+      "actual_day": null
+    },
+    {
+      "id": "T-013",
+      "name": "Prepare ASC 606 Disclosure Schedules",
+      "category": "Management Reporting",
+      "owner": "Senior Accountant",
+      "target_day": 4,
+      "status": "not_started",
+      "actual_day": null
+    },
+    {
+      "id": "T-014",
+      "name": "Revenue Close Sign-Off",
+      "category": "Management Reporting",
+      "owner": "Controller",
+      "target_day": 5,
+      "status": "not_started",
+      "actual_day": null
+    }
+  ]
+}

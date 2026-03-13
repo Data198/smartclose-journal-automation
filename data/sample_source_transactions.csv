@@ -1,0 +1,442 @@
+transaction_id,date,customer_id,customer_name,product,transaction_type,amount,currency,contract_id,period_start,period_end
+TXN-0001,2025-01-19,C-100,TechFlow Inc,Platform Pro Annual,subscription_billing,24777.23,USD,CON-100,2025-01-01,2025-12-31
+TXN-0002,2025-01-03,C-100,TechFlow Inc,Platform Basic Monthly,subscription_billing,1291.38,USD,CON-100,2025-01-01,2025-01-28
+TXN-0003,2025-01-12,C-100,TechFlow Inc,API Overage,usage_billing,4122.67,USD,CON-100,2025-01-01,2025-01-28
+TXN-0004,2025-01-25,C-100,TechFlow Inc,Premium Support,subscription_refund,-2014.13,USD,CON-100,2025-01-01,2025-12-31
+TXN-0005,2025-01-10,C-100,TechFlow Inc,Premium Support,subscription_billing,5842.45,USD,CON-100,2025-01-01,2025-12-31
+TXN-0006,2025-01-03,C-101,DataSphere Ltd,Platform Standard Monthly,subscription_billing,2527.76,USD,CON-101,2025-01-01,2025-01-28
+TXN-0007,2025-01-18,C-101,DataSphere Ltd,Platform Basic Monthly,subscription_billing,1153.92,USD,CON-101,2025-01-01,2025-01-28
+TXN-0008,2025-01-15,C-101,DataSphere Ltd,Implementation,service_billing,7759.9,USD,CON-101,2025-01-01,2025-12-31
+TXN-0009,2025-01-03,C-101,DataSphere Ltd,API Overage,usage_billing,3398.71,USD,CON-101,2025-01-01,2025-01-28
+TXN-0010,2025-01-10,C-101,DataSphere Ltd,Premium Support,subscription_billing,5620.46,USD,CON-101,2025-01-01,2025-12-31
+TXN-0011,2025-01-12,C-102,CloudNine Corp,Platform Pro Annual,subscription_billing,25310.39,USD,CON-102,2025-01-01,2025-12-31
+TXN-0012,2025-01-08,C-102,CloudNine Corp,Platform Standard Monthly,subscription_billing,2592.31,USD,CON-102,2025-01-01,2025-01-28
+TXN-0013,2025-01-13,C-102,CloudNine Corp,Platform Basic Monthly,subscription_billing,1210.28,USD,CON-102,2025-01-01,2025-01-28
+TXN-0014,2025-01-01,C-102,CloudNine Corp,API Overage,usage_billing,859.8,USD,CON-102,2025-01-01,2025-01-28
+TXN-0015,2025-01-07,C-102,CloudNine Corp,Premium Support,subscription_billing,6266.32,USD,CON-102,2025-01-01,2025-12-31
+TXN-0016,2025-01-05,C-103,InnovateTech,Platform Pro Annual,subscription_billing,23705.1,USD,CON-103,2025-01-01,2025-12-31
+TXN-0017,2025-01-01,C-103,InnovateTech,Platform Standard Monthly,subscription_billing,2403.79,USD,CON-103,2025-01-01,2025-01-28
+TXN-0018,2025-01-14,C-103,InnovateTech,Platform Basic Monthly,subscription_billing,1228.07,USD,CON-103,2025-01-01,2025-01-28
+TXN-0019,2025-01-10,C-103,InnovateTech,Implementation,service_billing,8294.45,USD,CON-103,2025-01-01,2025-12-31
+TXN-0020,2025-01-04,C-103,InnovateTech,API Overage,usage_billing,1403.53,USD,CON-103,2025-01-01,2025-01-28
+TXN-0021,2025-01-11,C-103,InnovateTech,Premium Support,subscription_billing,6288.35,USD,CON-103,2025-01-01,2025-12-31
+TXN-0022,2025-01-06,C-104,Quantum Analytics,Platform Standard Monthly,subscription_billing,2588.12,USD,CON-104,2025-01-01,2025-01-28
+TXN-0023,2025-01-11,C-104,Quantum Analytics,Platform Basic Monthly,subscription_billing,1221.66,USD,CON-104,2025-01-01,2025-01-28
+TXN-0024,2025-01-13,C-104,Quantum Analytics,Implementation,service_billing,8289.63,USD,CON-104,2025-01-01,2025-12-31
+TXN-0025,2025-01-09,C-104,Quantum Analytics,API Overage,usage_billing,524.49,USD,CON-104,2025-01-01,2025-01-28
+TXN-0026,2025-01-09,C-104,Quantum Analytics,Premium Support,subscription_billing,5727.9,USD,CON-104,2025-01-01,2025-12-31
+TXN-0027,2025-01-12,C-105,NexGen Solutions,Platform Pro Annual,subscription_billing,23019.18,USD,CON-105,2025-01-01,2025-12-31
+TXN-0028,2025-01-05,C-105,NexGen Solutions,Platform Basic Monthly,subscription_billing,1203.61,USD,CON-105,2025-01-01,2025-01-28
+TXN-0029,2025-01-12,C-105,NexGen Solutions,Implementation,service_billing,8985.3,USD,CON-105,2025-01-01,2025-12-31
+TXN-0030,2025-01-17,C-105,NexGen Solutions,API Overage,usage_billing,2874.08,USD,CON-105,2025-01-01,2025-01-28
+TXN-0031,2025-01-06,C-105,NexGen Solutions,Premium Support,subscription_billing,6050.6,USD,CON-105,2025-01-01,2025-12-31
+TXN-0032,2025-01-16,C-106,AlphaWave Digital,Platform Pro Annual,subscription_billing,23468.64,USD,CON-106,2025-01-01,2025-12-31
+TXN-0033,2025-01-17,C-106,AlphaWave Digital,Platform Basic Monthly,subscription_refund,-518.18,USD,CON-106,2025-01-01,2025-01-28
+TXN-0034,2025-01-07,C-106,AlphaWave Digital,Platform Basic Monthly,subscription_billing,1222.69,USD,CON-106,2025-01-01,2025-01-28
+TXN-0035,2025-01-10,C-106,AlphaWave Digital,API Overage,usage_billing,2152.57,USD,CON-106,2025-01-01,2025-01-28
+TXN-0036,2025-01-17,C-107,Prisma Systems,Platform Pro Annual,subscription_billing,23613.53,USD,CON-107,2025-01-01,2025-12-31
+TXN-0037,2025-01-16,C-107,Prisma Systems,Implementation,service_billing,7423.98,USD,CON-107,2025-01-01,2025-12-31
+TXN-0038,2025-01-01,C-107,Prisma Systems,API Overage,usage_billing,4612.65,USD,CON-107,2025-01-01,2025-01-28
+TXN-0039,2025-01-16,C-107,Prisma Systems,Premium Support,subscription_refund,-1791.34,USD,CON-107,2025-01-01,2025-12-31
+TXN-0040,2025-01-03,C-107,Prisma Systems,Premium Support,subscription_billing,6087.92,USD,CON-107,2025-01-01,2025-12-31
+TXN-0041,2025-01-01,C-108,Vertex AI Labs,Platform Pro Annual,subscription_billing,23142.78,USD,CON-108,2025-01-01,2025-12-31
+TXN-0042,2025-01-01,C-108,Vertex AI Labs,Platform Standard Monthly,subscription_billing,2667.9,USD,CON-108,2025-01-01,2025-01-28
+TXN-0043,2025-01-14,C-108,Vertex AI Labs,Platform Basic Monthly,subscription_billing,1155.93,USD,CON-108,2025-01-01,2025-01-28
+TXN-0044,2025-01-01,C-108,Vertex AI Labs,Implementation,service_billing,8364.2,USD,CON-108,2025-01-01,2025-12-31
+TXN-0045,2025-01-16,C-108,Vertex AI Labs,API Overage,usage_billing,2712.29,USD,CON-108,2025-01-01,2025-01-28
+TXN-0046,2025-01-22,C-109,FusionPoint,Platform Standard Monthly,subscription_refund,-574.26,USD,CON-109,2025-01-01,2025-01-28
+TXN-0047,2025-01-14,C-109,FusionPoint,Platform Standard Monthly,subscription_billing,2472.07,USD,CON-109,2025-01-01,2025-01-28
+TXN-0048,2025-01-01,C-109,FusionPoint,Platform Basic Monthly,subscription_billing,1242.84,USD,CON-109,2025-01-01,2025-01-28
+TXN-0049,2025-01-08,C-109,FusionPoint,Implementation,service_billing,8284.04,USD,CON-109,2025-01-01,2025-12-31
+TXN-0050,2025-01-10,C-110,ClearPath Software,Platform Pro Annual,subscription_billing,24110.97,USD,CON-110,2025-01-01,2025-12-31
+TXN-0051,2025-01-10,C-110,ClearPath Software,Platform Standard Monthly,subscription_billing,2635.38,USD,CON-110,2025-01-01,2025-01-28
+TXN-0052,2025-01-13,C-110,ClearPath Software,Platform Basic Monthly,subscription_billing,1263.23,USD,CON-110,2025-01-01,2025-01-28
+TXN-0053,2025-01-19,C-110,ClearPath Software,Premium Support,subscription_billing,5950.41,USD,CON-110,2025-01-01,2025-12-31
+TXN-0054,2025-01-19,C-111,BlueSky Dynamics,Platform Pro Annual,subscription_billing,23175.39,USD,CON-111,2025-01-01,2025-12-31
+TXN-0055,2025-01-10,C-111,BlueSky Dynamics,Platform Standard Monthly,subscription_billing,2585.78,USD,CON-111,2025-01-01,2025-01-28
+TXN-0056,2025-01-01,C-111,BlueSky Dynamics,Platform Basic Monthly,subscription_billing,1103.24,USD,CON-111,2025-01-01,2025-01-28
+TXN-0057,2025-01-15,C-111,BlueSky Dynamics,Implementation,service_billing,7980.94,USD,CON-111,2025-01-01,2025-12-31
+TXN-0058,2025-01-18,C-111,BlueSky Dynamics,API Overage,usage_billing,1151.7,USD,CON-111,2025-01-01,2025-01-28
+TXN-0059,2025-01-05,C-111,BlueSky Dynamics,Premium Support,subscription_billing,5801.46,USD,CON-111,2025-01-01,2025-12-31
+TXN-0060,2025-01-01,C-112,Pinnacle Data,Platform Basic Monthly,subscription_billing,1251.15,USD,CON-112,2025-01-01,2025-01-28
+TXN-0061,2025-01-05,C-112,Pinnacle Data,Implementation,service_billing,8073.54,USD,CON-112,2025-01-01,2025-12-31
+TXN-0062,2025-01-16,C-112,Pinnacle Data,API Overage,usage_billing,2457.21,USD,CON-112,2025-01-01,2025-01-28
+TXN-0063,2025-01-05,C-113,Catalyst Corp,Platform Standard Monthly,subscription_billing,2464.92,USD,CON-113,2025-01-01,2025-01-28
+TXN-0064,2025-01-07,C-113,Catalyst Corp,Platform Basic Monthly,subscription_billing,1163.76,USD,CON-113,2025-01-01,2025-01-28
+TXN-0065,2025-01-04,C-113,Catalyst Corp,Implementation,service_billing,7831.98,USD,CON-113,2025-01-01,2025-12-31
+TXN-0066,2025-01-01,C-113,Catalyst Corp,Premium Support,subscription_billing,6041.76,USD,CON-113,2025-01-01,2025-12-31
+TXN-0067,2025-01-12,C-114,Meridian Tech,Platform Pro Annual,subscription_billing,24681.32,USD,CON-114,2025-01-01,2025-12-31
+TXN-0068,2025-01-19,C-114,Meridian Tech,Platform Standard Monthly,subscription_billing,2518.52,USD,CON-114,2025-01-01,2025-01-28
+TXN-0069,2025-01-13,C-114,Meridian Tech,Platform Basic Monthly,subscription_billing,1230.09,USD,CON-114,2025-01-01,2025-01-28
+TXN-0070,2025-01-17,C-114,Meridian Tech,API Overage,usage_billing,711.15,USD,CON-114,2025-01-01,2025-01-28
+TXN-0071,2025-01-07,C-114,Meridian Tech,Premium Support,subscription_billing,5662.51,USD,CON-114,2025-01-01,2025-12-31
+TXN-0072,2025-02-04,C-100,TechFlow Inc,Platform Standard Monthly,subscription_billing,2660.24,USD,CON-100,2025-02-01,2025-02-28
+TXN-0073,2025-02-03,C-100,TechFlow Inc,Platform Basic Monthly,subscription_billing,1066.99,USD,CON-100,2025-02-01,2025-02-28
+TXN-0074,2025-02-05,C-100,TechFlow Inc,API Overage,usage_billing,2325.13,USD,CON-100,2025-02-01,2025-02-28
+TXN-0075,2025-02-13,C-101,DataSphere Ltd,Platform Standard Monthly,subscription_billing,2579.11,USD,CON-101,2025-02-01,2025-02-28
+TXN-0076,2025-02-23,C-101,DataSphere Ltd,Platform Basic Monthly,subscription_refund,-467.27,USD,CON-101,2025-02-01,2025-02-28
+TXN-0077,2025-02-09,C-101,DataSphere Ltd,Platform Basic Monthly,subscription_billing,1064.75,USD,CON-101,2025-02-01,2025-02-28
+TXN-0078,2025-02-03,C-101,DataSphere Ltd,API Overage,usage_billing,5234.56,USD,CON-101,2025-02-01,2025-02-28
+TXN-0079,2025-02-10,C-102,CloudNine Corp,Platform Basic Monthly,subscription_billing,1263.91,USD,CON-102,2025-02-01,2025-02-28
+TXN-0080,2025-02-15,C-102,CloudNine Corp,API Overage,usage_billing,763.61,USD,CON-102,2025-02-01,2025-02-28
+TXN-0081,2025-02-13,C-103,InnovateTech,Platform Standard Monthly,subscription_billing,2709.41,USD,CON-103,2025-02-01,2025-02-28
+TXN-0082,2025-02-13,C-103,InnovateTech,API Overage,usage_billing,1068.01,USD,CON-103,2025-02-01,2025-02-28
+TXN-0083,2025-02-06,C-104,Quantum Analytics,Platform Standard Monthly,subscription_billing,2509.88,USD,CON-104,2025-02-01,2025-02-28
+TXN-0084,2025-02-19,C-104,Quantum Analytics,Platform Basic Monthly,subscription_billing,1288.7,USD,CON-104,2025-02-01,2025-02-28
+TXN-0085,2025-02-08,C-104,Quantum Analytics,API Overage,usage_billing,526.86,USD,CON-104,2025-02-01,2025-02-28
+TXN-0086,2025-02-01,C-105,NexGen Solutions,Platform Standard Monthly,subscription_billing,2486.4,USD,CON-105,2025-02-01,2025-02-28
+TXN-0087,2025-02-05,C-106,AlphaWave Digital,Platform Standard Monthly,subscription_billing,2550.21,USD,CON-106,2025-02-01,2025-02-28
+TXN-0088,2025-02-10,C-107,Prisma Systems,Platform Basic Monthly,subscription_billing,1286.21,USD,CON-107,2025-02-01,2025-02-28
+TXN-0089,2025-02-08,C-107,Prisma Systems,API Overage,usage_billing,2460.97,USD,CON-107,2025-02-01,2025-02-28
+TXN-0090,2025-02-17,C-108,Vertex AI Labs,Platform Standard Monthly,subscription_billing,2400.22,USD,CON-108,2025-02-01,2025-02-28
+TXN-0091,2025-02-03,C-108,Vertex AI Labs,API Overage,usage_billing,1604.3,USD,CON-108,2025-02-01,2025-02-28
+TXN-0092,2025-02-13,C-109,FusionPoint,Platform Standard Monthly,subscription_billing,2587.53,USD,CON-109,2025-02-01,2025-02-28
+TXN-0093,2025-02-11,C-109,FusionPoint,API Overage,usage_billing,2644.06,USD,CON-109,2025-02-01,2025-02-28
+TXN-0094,2025-02-01,C-110,ClearPath Software,Platform Standard Monthly,subscription_billing,2485.68,USD,CON-110,2025-02-01,2025-02-28
+TXN-0095,2025-02-03,C-110,ClearPath Software,API Overage,usage_billing,3084.32,USD,CON-110,2025-02-01,2025-02-28
+TXN-0096,2025-02-19,C-111,BlueSky Dynamics,Platform Standard Monthly,subscription_billing,2460.87,USD,CON-111,2025-02-01,2025-02-28
+TXN-0097,2025-02-08,C-111,BlueSky Dynamics,API Overage,usage_billing,3594.15,USD,CON-111,2025-02-01,2025-02-28
+TXN-0098,2025-02-17,C-112,Pinnacle Data,Platform Standard Monthly,subscription_billing,2617.13,USD,CON-112,2025-02-01,2025-02-28
+TXN-0099,2025-02-19,C-112,Pinnacle Data,API Overage,usage_billing,3197.7,USD,CON-112,2025-02-01,2025-02-28
+TXN-0100,2025-02-02,C-113,Catalyst Corp,Platform Standard Monthly,subscription_billing,2602.92,USD,CON-113,2025-02-01,2025-02-28
+TXN-0101,2025-02-10,C-113,Catalyst Corp,Platform Basic Monthly,subscription_billing,1323.15,USD,CON-113,2025-02-01,2025-02-28
+TXN-0102,2025-02-05,C-113,Catalyst Corp,API Overage,usage_billing,1160.98,USD,CON-113,2025-02-01,2025-02-28
+TXN-0103,2025-02-19,C-114,Meridian Tech,Platform Standard Monthly,subscription_billing,2599.55,USD,CON-114,2025-02-01,2025-02-28
+TXN-0104,2025-02-04,C-114,Meridian Tech,Platform Basic Monthly,subscription_billing,1094.15,USD,CON-114,2025-02-01,2025-02-28
+TXN-0105,2025-02-18,C-114,Meridian Tech,API Overage,usage_billing,4875.69,USD,CON-114,2025-02-01,2025-02-28
+TXN-0106,2025-03-05,C-100,TechFlow Inc,Platform Standard Monthly,subscription_billing,2470.52,USD,CON-100,2025-03-01,2025-03-28
+TXN-0107,2025-03-14,C-100,TechFlow Inc,Platform Basic Monthly,subscription_billing,1195.39,USD,CON-100,2025-03-01,2025-03-28
+TXN-0108,2025-03-11,C-100,TechFlow Inc,API Overage,usage_billing,1005.2,USD,CON-100,2025-03-01,2025-03-28
+TXN-0109,2025-03-15,C-101,DataSphere Ltd,Platform Basic Monthly,subscription_billing,1188.17,USD,CON-101,2025-03-01,2025-03-28
+TXN-0110,2025-03-14,C-101,DataSphere Ltd,API Overage,usage_billing,1577.53,USD,CON-101,2025-03-01,2025-03-28
+TXN-0111,2025-03-13,C-102,CloudNine Corp,Platform Standard Monthly,subscription_billing,2699.64,USD,CON-102,2025-03-01,2025-03-28
+TXN-0112,2025-03-10,C-102,CloudNine Corp,Platform Basic Monthly,subscription_billing,1147.73,USD,CON-102,2025-03-01,2025-03-28
+TXN-0113,2025-03-17,C-102,CloudNine Corp,API Overage,usage_billing,891.2,USD,CON-102,2025-03-01,2025-03-28
+TXN-0114,2025-03-15,C-103,InnovateTech,Platform Standard Monthly,subscription_billing,2821.67,USD,CON-103,2025-03-01,2025-03-28
+TXN-0115,2025-03-09,C-103,InnovateTech,Platform Basic Monthly,subscription_billing,1162.56,USD,CON-103,2025-03-01,2025-03-28
+TXN-0116,2025-03-01,C-103,InnovateTech,API Overage,usage_billing,3232.18,USD,CON-103,2025-03-01,2025-03-28
+TXN-0117,2025-03-09,C-104,Quantum Analytics,Platform Standard Monthly,subscription_billing,2295.25,USD,CON-104,2025-03-01,2025-03-28
+TXN-0118,2025-03-04,C-104,Quantum Analytics,API Overage,usage_billing,4861.91,USD,CON-104,2025-03-01,2025-03-28
+TXN-0119,2025-03-02,C-105,NexGen Solutions,Platform Standard Monthly,subscription_billing,2386.55,USD,CON-105,2025-03-01,2025-03-28
+TXN-0120,2025-03-04,C-105,NexGen Solutions,Platform Basic Monthly,subscription_billing,1255.98,USD,CON-105,2025-03-01,2025-03-28
+TXN-0121,2025-03-14,C-105,NexGen Solutions,API Overage,usage_billing,1530.25,USD,CON-105,2025-03-01,2025-03-28
+TXN-0122,2025-03-10,C-106,AlphaWave Digital,Platform Basic Monthly,subscription_billing,1191.09,USD,CON-106,2025-03-01,2025-03-28
+TXN-0123,2025-03-05,C-106,AlphaWave Digital,API Overage,usage_billing,4060.0,USD,CON-106,2025-03-01,2025-03-28
+TXN-0124,2025-03-12,C-107,Prisma Systems,Platform Standard Monthly,subscription_billing,2473.35,USD,CON-107,2025-03-01,2025-03-28
+TXN-0125,2025-03-02,C-107,Prisma Systems,Platform Basic Monthly,subscription_billing,1209.57,USD,CON-107,2025-03-01,2025-03-28
+TXN-0126,2025-03-05,C-108,Vertex AI Labs,Platform Standard Monthly,subscription_billing,2425.69,USD,CON-108,2025-03-01,2025-03-28
+TXN-0127,2025-03-04,C-108,Vertex AI Labs,Platform Basic Monthly,subscription_billing,1235.3,USD,CON-108,2025-03-01,2025-03-28
+TXN-0128,2025-03-06,C-108,Vertex AI Labs,API Overage,usage_billing,3890.09,USD,CON-108,2025-03-01,2025-03-28
+TXN-0129,2025-03-02,C-109,FusionPoint,Platform Standard Monthly,subscription_billing,2450.2,USD,CON-109,2025-03-01,2025-03-28
+TXN-0130,2025-03-07,C-109,FusionPoint,Platform Basic Monthly,subscription_billing,1146.91,USD,CON-109,2025-03-01,2025-03-28
+TXN-0131,2025-03-01,C-109,FusionPoint,API Overage,usage_billing,1268.23,USD,CON-109,2025-03-01,2025-03-28
+TXN-0132,2025-03-04,C-110,ClearPath Software,Platform Standard Monthly,subscription_billing,2363.58,USD,CON-110,2025-03-01,2025-03-28
+TXN-0133,2025-03-01,C-110,ClearPath Software,Platform Basic Monthly,subscription_billing,1150.98,USD,CON-110,2025-03-01,2025-03-28
+TXN-0134,2025-03-08,C-110,ClearPath Software,API Overage,usage_billing,2453.52,USD,CON-110,2025-03-01,2025-03-28
+TXN-0135,2025-03-19,C-111,BlueSky Dynamics,Platform Standard Monthly,subscription_billing,2383.3,USD,CON-111,2025-03-01,2025-03-28
+TXN-0136,2025-03-08,C-111,BlueSky Dynamics,Platform Basic Monthly,subscription_billing,1270.92,USD,CON-111,2025-03-01,2025-03-28
+TXN-0137,2025-03-12,C-111,BlueSky Dynamics,API Overage,usage_billing,2625.21,USD,CON-111,2025-03-01,2025-03-28
+TXN-0138,2025-03-19,C-112,Pinnacle Data,API Overage,usage_billing,931.03,USD,CON-112,2025-03-01,2025-03-28
+TXN-0139,2025-03-14,C-113,Catalyst Corp,Platform Standard Monthly,subscription_billing,2662.73,USD,CON-113,2025-03-01,2025-03-28
+TXN-0140,2025-03-09,C-113,Catalyst Corp,API Overage,usage_billing,1952.63,USD,CON-113,2025-03-01,2025-03-28
+TXN-0141,2025-03-11,C-114,Meridian Tech,Platform Standard Monthly,subscription_billing,2330.16,USD,CON-114,2025-03-01,2025-03-28
+TXN-0142,2025-03-12,C-114,Meridian Tech,Platform Basic Monthly,subscription_billing,1250.43,USD,CON-114,2025-03-01,2025-03-28
+TXN-0143,2025-04-18,C-100,TechFlow Inc,Platform Basic Monthly,subscription_billing,1197.69,USD,CON-100,2025-04-01,2025-04-28
+TXN-0144,2025-04-13,C-101,DataSphere Ltd,Platform Standard Monthly,subscription_billing,2500.09,USD,CON-101,2025-04-01,2025-04-28
+TXN-0145,2025-04-17,C-101,DataSphere Ltd,Platform Basic Monthly,subscription_billing,1209.5,USD,CON-101,2025-04-01,2025-04-28
+TXN-0146,2025-04-18,C-101,DataSphere Ltd,API Overage,usage_billing,3252.97,USD,CON-101,2025-04-01,2025-04-28
+TXN-0147,2025-04-10,C-102,CloudNine Corp,Platform Basic Monthly,subscription_billing,1040.44,USD,CON-102,2025-04-01,2025-04-28
+TXN-0148,2025-04-21,C-102,CloudNine Corp,API Overage,subscription_refund,-493.56,USD,CON-102,2025-04-01,2025-04-28
+TXN-0149,2025-04-08,C-102,CloudNine Corp,API Overage,usage_billing,2448.75,USD,CON-102,2025-04-01,2025-04-28
+TXN-0150,2025-04-14,C-103,InnovateTech,Platform Basic Monthly,subscription_billing,1276.29,USD,CON-103,2025-04-01,2025-04-28
+TXN-0151,2025-04-10,C-103,InnovateTech,API Overage,usage_billing,4422.84,USD,CON-103,2025-04-01,2025-04-28
+TXN-0152,2025-04-11,C-104,Quantum Analytics,API Overage,usage_billing,4313.64,USD,CON-104,2025-04-01,2025-04-28
+TXN-0153,2025-04-02,C-105,NexGen Solutions,Platform Standard Monthly,subscription_billing,2339.95,USD,CON-105,2025-04-01,2025-04-28
+TXN-0154,2025-04-12,C-105,NexGen Solutions,Platform Basic Monthly,subscription_billing,1305.29,USD,CON-105,2025-04-01,2025-04-28
+TXN-0155,2025-04-19,C-105,NexGen Solutions,API Overage,usage_billing,2708.82,USD,CON-105,2025-04-01,2025-04-28
+TXN-0156,2025-04-11,C-106,AlphaWave Digital,Platform Standard Monthly,subscription_billing,2518.79,USD,CON-106,2025-04-01,2025-04-28
+TXN-0157,2025-04-06,C-106,AlphaWave Digital,Platform Basic Monthly,subscription_billing,1217.84,USD,CON-106,2025-04-01,2025-04-28
+TXN-0158,2025-04-10,C-107,Prisma Systems,Platform Standard Monthly,subscription_billing,2577.85,USD,CON-107,2025-04-01,2025-04-28
+TXN-0159,2025-04-14,C-108,Vertex AI Labs,Platform Standard Monthly,subscription_billing,2648.27,USD,CON-108,2025-04-01,2025-04-28
+TXN-0160,2025-04-11,C-108,Vertex AI Labs,API Overage,usage_billing,883.81,USD,CON-108,2025-04-01,2025-04-28
+TXN-0161,2025-04-05,C-109,FusionPoint,Platform Standard Monthly,subscription_billing,2381.33,USD,CON-109,2025-04-01,2025-04-28
+TXN-0162,2025-04-19,C-109,FusionPoint,Platform Basic Monthly,subscription_billing,1357.94,USD,CON-109,2025-04-01,2025-04-28
+TXN-0163,2025-04-10,C-110,ClearPath Software,Platform Standard Monthly,subscription_billing,2495.63,USD,CON-110,2025-04-01,2025-04-28
+TXN-0164,2025-04-12,C-110,ClearPath Software,Platform Basic Monthly,subscription_billing,1306.25,USD,CON-110,2025-04-01,2025-04-28
+TXN-0165,2025-04-16,C-111,BlueSky Dynamics,Platform Basic Monthly,subscription_billing,1195.53,USD,CON-111,2025-04-01,2025-04-28
+TXN-0166,2025-04-16,C-111,BlueSky Dynamics,API Overage,usage_billing,4257.68,USD,CON-111,2025-04-01,2025-04-28
+TXN-0167,2025-04-07,C-112,Pinnacle Data,Platform Standard Monthly,subscription_billing,2602.31,USD,CON-112,2025-04-01,2025-04-28
+TXN-0168,2025-04-07,C-112,Pinnacle Data,API Overage,usage_billing,4780.98,USD,CON-112,2025-04-01,2025-04-28
+TXN-0169,2025-04-03,C-113,Catalyst Corp,Platform Standard Monthly,subscription_billing,2612.78,USD,CON-113,2025-04-01,2025-04-28
+TXN-0170,2025-04-12,C-113,Catalyst Corp,Platform Basic Monthly,subscription_billing,1079.28,USD,CON-113,2025-04-01,2025-04-28
+TXN-0171,2025-04-13,C-113,Catalyst Corp,API Overage,usage_billing,3102.58,USD,CON-113,2025-04-01,2025-04-28
+TXN-0172,2025-04-13,C-114,Meridian Tech,Platform Basic Monthly,subscription_billing,1250.16,USD,CON-114,2025-04-01,2025-04-28
+TXN-0173,2025-04-10,C-114,Meridian Tech,API Overage,usage_billing,921.01,USD,CON-114,2025-04-01,2025-04-28
+TXN-0174,2025-05-27,C-100,TechFlow Inc,Platform Standard Monthly,subscription_refund,-584.96,USD,CON-100,2025-05-01,2025-05-28
+TXN-0175,2025-05-18,C-100,TechFlow Inc,Platform Standard Monthly,subscription_billing,2418.7,USD,CON-100,2025-05-01,2025-05-28
+TXN-0176,2025-05-05,C-101,DataSphere Ltd,Platform Standard Monthly,subscription_billing,2366.18,USD,CON-101,2025-05-01,2025-05-28
+TXN-0177,2025-05-13,C-101,DataSphere Ltd,API Overage,usage_billing,4913.46,USD,CON-101,2025-05-01,2025-05-28
+TXN-0178,2025-05-11,C-102,CloudNine Corp,Platform Basic Monthly,subscription_billing,1237.09,USD,CON-102,2025-05-01,2025-05-28
+TXN-0179,2025-05-17,C-103,InnovateTech,Platform Standard Monthly,subscription_billing,2437.04,USD,CON-103,2025-05-01,2025-05-28
+TXN-0180,2025-05-18,C-103,InnovateTech,Platform Basic Monthly,subscription_billing,1098.06,USD,CON-103,2025-05-01,2025-05-28
+TXN-0181,2025-05-02,C-104,Quantum Analytics,Platform Basic Monthly,subscription_billing,1210.64,USD,CON-104,2025-05-01,2025-05-28
+TXN-0182,2025-05-10,C-104,Quantum Analytics,API Overage,usage_billing,1676.07,USD,CON-104,2025-05-01,2025-05-28
+TXN-0183,2025-05-15,C-105,NexGen Solutions,Platform Standard Monthly,subscription_billing,2496.13,USD,CON-105,2025-05-01,2025-05-28
+TXN-0184,2025-05-08,C-106,AlphaWave Digital,Platform Basic Monthly,subscription_billing,1254.45,USD,CON-106,2025-05-01,2025-05-28
+TXN-0185,2025-05-19,C-106,AlphaWave Digital,API Overage,usage_billing,1704.68,USD,CON-106,2025-05-01,2025-05-28
+TXN-0186,2025-05-25,C-108,Vertex AI Labs,Platform Standard Monthly,subscription_refund,-503.52,USD,CON-108,2025-05-01,2025-05-28
+TXN-0187,2025-05-07,C-108,Vertex AI Labs,Platform Standard Monthly,subscription_billing,2630.03,USD,CON-108,2025-05-01,2025-05-28
+TXN-0188,2025-05-27,C-108,Vertex AI Labs,API Overage,subscription_refund,-960.7,USD,CON-108,2025-05-01,2025-05-28
+TXN-0189,2025-05-17,C-108,Vertex AI Labs,API Overage,usage_billing,2770.42,USD,CON-108,2025-05-01,2025-05-28
+TXN-0190,2025-05-07,C-109,FusionPoint,Platform Standard Monthly,subscription_billing,2472.35,USD,CON-109,2025-05-01,2025-05-28
+TXN-0191,2025-05-15,C-109,FusionPoint,Platform Basic Monthly,subscription_billing,1211.38,USD,CON-109,2025-05-01,2025-05-28
+TXN-0192,2025-05-18,C-110,ClearPath Software,Platform Basic Monthly,subscription_billing,1207.98,USD,CON-110,2025-05-01,2025-05-28
+TXN-0193,2025-05-03,C-110,ClearPath Software,API Overage,usage_billing,4689.82,USD,CON-110,2025-05-01,2025-05-28
+TXN-0194,2025-05-16,C-111,BlueSky Dynamics,Platform Basic Monthly,subscription_refund,-244.21,USD,CON-111,2025-05-01,2025-05-28
+TXN-0195,2025-05-04,C-111,BlueSky Dynamics,Platform Basic Monthly,subscription_billing,1165.94,USD,CON-111,2025-05-01,2025-05-28
+TXN-0196,2025-05-11,C-111,BlueSky Dynamics,API Overage,usage_billing,1281.51,USD,CON-111,2025-05-01,2025-05-28
+TXN-0197,2025-05-16,C-112,Pinnacle Data,Platform Standard Monthly,subscription_billing,2472.2,USD,CON-112,2025-05-01,2025-05-28
+TXN-0198,2025-05-05,C-112,Pinnacle Data,Platform Basic Monthly,subscription_billing,1131.18,USD,CON-112,2025-05-01,2025-05-28
+TXN-0199,2025-05-12,C-112,Pinnacle Data,API Overage,usage_billing,4362.67,USD,CON-112,2025-05-01,2025-05-28
+TXN-0200,2025-05-08,C-113,Catalyst Corp,Platform Standard Monthly,subscription_billing,2416.36,USD,CON-113,2025-05-01,2025-05-28
+TXN-0201,2025-05-03,C-113,Catalyst Corp,Platform Basic Monthly,subscription_billing,1238.56,USD,CON-113,2025-05-01,2025-05-28
+TXN-0202,2025-05-12,C-113,Catalyst Corp,API Overage,usage_billing,539.14,USD,CON-113,2025-05-01,2025-05-28
+TXN-0203,2025-05-18,C-114,Meridian Tech,API Overage,usage_billing,3202.97,USD,CON-114,2025-05-01,2025-05-28
+TXN-0204,2025-06-01,C-100,TechFlow Inc,Platform Standard Monthly,subscription_billing,2494.89,USD,CON-100,2025-06-01,2025-06-28
+TXN-0205,2025-06-12,C-100,TechFlow Inc,Platform Basic Monthly,subscription_billing,1256.39,USD,CON-100,2025-06-01,2025-06-28
+TXN-0206,2025-06-26,C-101,DataSphere Ltd,Platform Standard Monthly,subscription_refund,-336.05,USD,CON-101,2025-06-01,2025-06-28
+TXN-0207,2025-06-01,C-101,DataSphere Ltd,Platform Standard Monthly,subscription_billing,2605.75,USD,CON-101,2025-06-01,2025-06-28
+TXN-0208,2025-06-17,C-102,CloudNine Corp,Platform Basic Monthly,subscription_billing,1165.73,USD,CON-102,2025-06-01,2025-06-28
+TXN-0209,2025-06-12,C-103,InnovateTech,Platform Standard Monthly,subscription_billing,2571.57,USD,CON-103,2025-06-01,2025-06-28
+TXN-0210,2025-06-07,C-103,InnovateTech,Platform Basic Monthly,subscription_billing,1165.23,USD,CON-103,2025-06-01,2025-06-28
+TXN-0211,2025-06-03,C-103,InnovateTech,API Overage,usage_billing,3362.26,USD,CON-103,2025-06-01,2025-06-28
+TXN-0212,2025-06-19,C-104,Quantum Analytics,Platform Standard Monthly,subscription_billing,2716.53,USD,CON-104,2025-06-01,2025-06-28
+TXN-0213,2025-06-19,C-104,Quantum Analytics,API Overage,usage_billing,1390.46,USD,CON-104,2025-06-01,2025-06-28
+TXN-0214,2025-06-19,C-105,NexGen Solutions,Platform Standard Monthly,subscription_billing,2438.79,USD,CON-105,2025-06-01,2025-06-28
+TXN-0215,2025-06-01,C-105,NexGen Solutions,Platform Basic Monthly,subscription_billing,1385.64,USD,CON-105,2025-06-01,2025-06-28
+TXN-0216,2025-06-18,C-106,AlphaWave Digital,Platform Standard Monthly,subscription_billing,2609.22,USD,CON-106,2025-06-01,2025-06-28
+TXN-0217,2025-06-02,C-106,AlphaWave Digital,Platform Basic Monthly,subscription_billing,1246.09,USD,CON-106,2025-06-01,2025-06-28
+TXN-0218,2025-06-12,C-106,AlphaWave Digital,API Overage,usage_billing,4181.4,USD,CON-106,2025-06-01,2025-06-28
+TXN-0219,2025-06-04,C-107,Prisma Systems,Platform Standard Monthly,subscription_billing,2428.4,USD,CON-107,2025-06-01,2025-06-28
+TXN-0220,2025-06-15,C-107,Prisma Systems,Platform Basic Monthly,subscription_billing,1219.43,USD,CON-107,2025-06-01,2025-06-28
+TXN-0221,2025-06-17,C-107,Prisma Systems,API Overage,usage_billing,3431.05,USD,CON-107,2025-06-01,2025-06-28
+TXN-0222,2025-06-15,C-108,Vertex AI Labs,Platform Basic Monthly,subscription_billing,1171.94,USD,CON-108,2025-06-01,2025-06-28
+TXN-0223,2025-06-10,C-108,Vertex AI Labs,API Overage,usage_billing,2532.23,USD,CON-108,2025-06-01,2025-06-28
+TXN-0224,2025-06-15,C-109,FusionPoint,Platform Standard Monthly,subscription_billing,2337.94,USD,CON-109,2025-06-01,2025-06-28
+TXN-0225,2025-06-12,C-109,FusionPoint,Platform Basic Monthly,subscription_billing,1109.24,USD,CON-109,2025-06-01,2025-06-28
+TXN-0226,2025-06-09,C-109,FusionPoint,API Overage,usage_billing,2933.86,USD,CON-109,2025-06-01,2025-06-28
+TXN-0227,2025-06-14,C-110,ClearPath Software,API Overage,usage_billing,1926.96,USD,CON-110,2025-06-01,2025-06-28
+TXN-0228,2025-06-11,C-111,BlueSky Dynamics,Platform Standard Monthly,subscription_billing,2508.47,USD,CON-111,2025-06-01,2025-06-28
+TXN-0229,2025-06-13,C-111,BlueSky Dynamics,Platform Basic Monthly,subscription_billing,1224.01,USD,CON-111,2025-06-01,2025-06-28
+TXN-0230,2025-06-06,C-111,BlueSky Dynamics,API Overage,usage_billing,3723.14,USD,CON-111,2025-06-01,2025-06-28
+TXN-0231,2025-06-10,C-112,Pinnacle Data,Platform Standard Monthly,subscription_billing,2446.59,USD,CON-112,2025-06-01,2025-06-28
+TXN-0232,2025-06-04,C-112,Pinnacle Data,API Overage,usage_billing,4302.48,USD,CON-112,2025-06-01,2025-06-28
+TXN-0233,2025-06-02,C-113,Catalyst Corp,Platform Standard Monthly,subscription_billing,2534.88,USD,CON-113,2025-06-01,2025-06-28
+TXN-0234,2025-06-09,C-113,Catalyst Corp,Platform Basic Monthly,subscription_billing,1196.15,USD,CON-113,2025-06-01,2025-06-28
+TXN-0235,2025-06-02,C-114,Meridian Tech,Platform Standard Monthly,subscription_billing,2541.1,USD,CON-114,2025-06-01,2025-06-28
+TXN-0236,2025-06-07,C-114,Meridian Tech,Platform Basic Monthly,subscription_billing,1277.39,USD,CON-114,2025-06-01,2025-06-28
+TXN-0237,2025-06-19,C-114,Meridian Tech,API Overage,usage_billing,2120.99,USD,CON-114,2025-06-01,2025-06-28
+TXN-0238,2025-07-10,C-100,TechFlow Inc,Platform Basic Monthly,subscription_billing,1210.18,USD,CON-100,2025-07-01,2025-07-28
+TXN-0239,2025-07-02,C-100,TechFlow Inc,API Overage,usage_billing,2837.7,USD,CON-100,2025-07-01,2025-07-28
+TXN-0240,2025-07-15,C-101,DataSphere Ltd,Platform Standard Monthly,subscription_billing,2680.67,USD,CON-101,2025-07-01,2025-07-28
+TXN-0241,2025-07-12,C-101,DataSphere Ltd,Platform Basic Monthly,subscription_billing,1090.56,USD,CON-101,2025-07-01,2025-07-28
+TXN-0242,2025-07-13,C-102,CloudNine Corp,Platform Standard Monthly,subscription_billing,2513.03,USD,CON-102,2025-07-01,2025-07-28
+TXN-0243,2025-07-16,C-102,CloudNine Corp,Platform Basic Monthly,subscription_billing,1196.24,USD,CON-102,2025-07-01,2025-07-28
+TXN-0244,2025-07-18,C-102,CloudNine Corp,API Overage,usage_billing,5258.27,USD,CON-102,2025-07-01,2025-07-28
+TXN-0245,2025-07-12,C-103,InnovateTech,Platform Standard Monthly,subscription_billing,2622.36,USD,CON-103,2025-07-01,2025-07-28
+TXN-0246,2025-07-04,C-103,InnovateTech,API Overage,usage_billing,902.81,USD,CON-103,2025-07-01,2025-07-28
+TXN-0247,2025-07-13,C-104,Quantum Analytics,Platform Standard Monthly,subscription_billing,2555.06,USD,CON-104,2025-07-01,2025-07-28
+TXN-0248,2025-07-10,C-104,Quantum Analytics,Platform Basic Monthly,subscription_billing,1182.96,USD,CON-104,2025-07-01,2025-07-28
+TXN-0249,2025-07-17,C-104,Quantum Analytics,API Overage,usage_billing,4668.31,USD,CON-104,2025-07-01,2025-07-28
+TXN-0250,2025-07-01,C-105,NexGen Solutions,Platform Basic Monthly,subscription_billing,1159.59,USD,CON-105,2025-07-01,2025-07-28
+TXN-0251,2025-07-05,C-106,AlphaWave Digital,Platform Standard Monthly,subscription_billing,2534.87,USD,CON-106,2025-07-01,2025-07-28
+TXN-0252,2025-07-02,C-106,AlphaWave Digital,Platform Basic Monthly,subscription_billing,1107.78,USD,CON-106,2025-07-01,2025-07-28
+TXN-0253,2025-07-07,C-106,AlphaWave Digital,API Overage,usage_billing,3588.69,USD,CON-106,2025-07-01,2025-07-28
+TXN-0254,2025-07-13,C-107,Prisma Systems,Platform Standard Monthly,subscription_billing,2293.86,USD,CON-107,2025-07-01,2025-07-28
+TXN-0255,2025-07-06,C-107,Prisma Systems,API Overage,usage_billing,1434.69,USD,CON-107,2025-07-01,2025-07-28
+TXN-0256,2025-07-06,C-108,Vertex AI Labs,Platform Standard Monthly,subscription_billing,2422.27,USD,CON-108,2025-07-01,2025-07-28
+TXN-0257,2025-07-03,C-108,Vertex AI Labs,Platform Basic Monthly,subscription_billing,1242.08,USD,CON-108,2025-07-01,2025-07-28
+TXN-0258,2025-07-05,C-109,FusionPoint,Platform Standard Monthly,subscription_billing,2608.56,USD,CON-109,2025-07-01,2025-07-28
+TXN-0259,2025-07-12,C-110,ClearPath Software,Platform Standard Monthly,subscription_billing,2275.5,USD,CON-110,2025-07-01,2025-07-28
+TXN-0260,2025-07-05,C-110,ClearPath Software,Platform Basic Monthly,subscription_billing,1145.21,USD,CON-110,2025-07-01,2025-07-28
+TXN-0261,2025-07-06,C-110,ClearPath Software,API Overage,usage_billing,1573.93,USD,CON-110,2025-07-01,2025-07-28
+TXN-0262,2025-07-04,C-111,BlueSky Dynamics,Platform Standard Monthly,subscription_billing,2345.23,USD,CON-111,2025-07-01,2025-07-28
+TXN-0263,2025-07-02,C-111,BlueSky Dynamics,Platform Basic Monthly,subscription_billing,1201.49,USD,CON-111,2025-07-01,2025-07-28
+TXN-0264,2025-07-06,C-111,BlueSky Dynamics,API Overage,usage_billing,1771.43,USD,CON-111,2025-07-01,2025-07-28
+TXN-0265,2025-07-15,C-112,Pinnacle Data,Platform Standard Monthly,subscription_billing,2230.89,USD,CON-112,2025-07-01,2025-07-28
+TXN-0266,2025-07-14,C-112,Pinnacle Data,Platform Basic Monthly,subscription_billing,1288.57,USD,CON-112,2025-07-01,2025-07-28
+TXN-0267,2025-07-03,C-112,Pinnacle Data,API Overage,usage_billing,1972.43,USD,CON-112,2025-07-01,2025-07-28
+TXN-0268,2025-07-01,C-113,Catalyst Corp,Platform Standard Monthly,subscription_billing,2635.74,USD,CON-113,2025-07-01,2025-07-28
+TXN-0269,2025-07-14,C-113,Catalyst Corp,Platform Basic Monthly,subscription_billing,1228.48,USD,CON-113,2025-07-01,2025-07-28
+TXN-0270,2025-07-02,C-113,Catalyst Corp,API Overage,usage_billing,2251.35,USD,CON-113,2025-07-01,2025-07-28
+TXN-0271,2025-07-14,C-114,Meridian Tech,Platform Basic Monthly,subscription_billing,1140.46,USD,CON-114,2025-07-01,2025-07-28
+TXN-0272,2025-08-02,C-100,TechFlow Inc,Platform Basic Monthly,subscription_billing,1268.64,USD,CON-100,2025-08-01,2025-08-28
+TXN-0273,2025-08-19,C-100,TechFlow Inc,API Overage,usage_billing,2956.4,USD,CON-100,2025-08-01,2025-08-28
+TXN-0274,2025-08-04,C-101,DataSphere Ltd,Platform Standard Monthly,subscription_billing,2568.57,USD,CON-101,2025-08-01,2025-08-28
+TXN-0275,2025-08-04,C-101,DataSphere Ltd,Platform Basic Monthly,subscription_billing,1144.65,USD,CON-101,2025-08-01,2025-08-28
+TXN-0276,2025-08-07,C-101,DataSphere Ltd,API Overage,usage_billing,1081.2,USD,CON-101,2025-08-01,2025-08-28
+TXN-0277,2025-08-06,C-102,CloudNine Corp,Platform Basic Monthly,subscription_billing,1259.36,USD,CON-102,2025-08-01,2025-08-28
+TXN-0278,2025-08-16,C-102,CloudNine Corp,API Overage,subscription_refund,-363.82,USD,CON-102,2025-08-01,2025-08-28
+TXN-0279,2025-08-18,C-102,CloudNine Corp,API Overage,usage_billing,1034.4,USD,CON-102,2025-08-01,2025-08-28
+TXN-0280,2025-08-04,C-103,InnovateTech,Platform Standard Monthly,subscription_billing,2522.92,USD,CON-103,2025-08-01,2025-08-28
+TXN-0281,2025-08-06,C-103,InnovateTech,Platform Basic Monthly,subscription_billing,1265.49,USD,CON-103,2025-08-01,2025-08-28
+TXN-0282,2025-08-09,C-103,InnovateTech,API Overage,usage_billing,1128.45,USD,CON-103,2025-08-01,2025-08-28
+TXN-0283,2025-08-13,C-105,NexGen Solutions,Platform Standard Monthly,subscription_billing,2311.32,USD,CON-105,2025-08-01,2025-08-28
+TXN-0284,2025-08-11,C-105,NexGen Solutions,API Overage,usage_billing,3511.93,USD,CON-105,2025-08-01,2025-08-28
+TXN-0285,2025-08-08,C-106,AlphaWave Digital,API Overage,usage_billing,2439.94,USD,CON-106,2025-08-01,2025-08-28
+TXN-0286,2025-08-09,C-107,Prisma Systems,Platform Basic Monthly,subscription_billing,1093.28,USD,CON-107,2025-08-01,2025-08-28
+TXN-0287,2025-08-04,C-108,Vertex AI Labs,Platform Standard Monthly,subscription_billing,2427.08,USD,CON-108,2025-08-01,2025-08-28
+TXN-0288,2025-08-02,C-108,Vertex AI Labs,API Overage,usage_billing,3126.92,USD,CON-108,2025-08-01,2025-08-28
+TXN-0289,2025-08-18,C-109,FusionPoint,Platform Standard Monthly,subscription_billing,2369.4,USD,CON-109,2025-08-01,2025-08-28
+TXN-0290,2025-08-19,C-109,FusionPoint,Platform Basic Monthly,subscription_billing,1082.02,USD,CON-109,2025-08-01,2025-08-28
+TXN-0291,2025-08-09,C-109,FusionPoint,API Overage,usage_billing,1813.75,USD,CON-109,2025-08-01,2025-08-28
+TXN-0292,2025-08-12,C-110,ClearPath Software,Platform Basic Monthly,subscription_billing,1215.95,USD,CON-110,2025-08-01,2025-08-28
+TXN-0293,2025-08-02,C-110,ClearPath Software,API Overage,usage_billing,3946.62,USD,CON-110,2025-08-01,2025-08-28
+TXN-0294,2025-08-12,C-111,BlueSky Dynamics,Platform Standard Monthly,subscription_billing,2285.31,USD,CON-111,2025-08-01,2025-08-28
+TXN-0295,2025-08-19,C-111,BlueSky Dynamics,Platform Basic Monthly,subscription_billing,1214.45,USD,CON-111,2025-08-01,2025-08-28
+TXN-0296,2025-08-08,C-112,Pinnacle Data,Platform Standard Monthly,subscription_billing,2825.21,USD,CON-112,2025-08-01,2025-08-28
+TXN-0297,2025-08-10,C-112,Pinnacle Data,API Overage,usage_billing,1007.24,USD,CON-112,2025-08-01,2025-08-28
+TXN-0298,2025-08-09,C-113,Catalyst Corp,Platform Standard Monthly,subscription_billing,2447.15,USD,CON-113,2025-08-01,2025-08-28
+TXN-0299,2025-08-11,C-113,Catalyst Corp,Platform Basic Monthly,subscription_billing,1152.91,USD,CON-113,2025-08-01,2025-08-28
+TXN-0300,2025-08-04,C-113,Catalyst Corp,API Overage,usage_billing,2701.24,USD,CON-113,2025-08-01,2025-08-28
+TXN-0301,2025-08-21,C-114,Meridian Tech,Platform Standard Monthly,subscription_refund,-258.21,USD,CON-114,2025-08-01,2025-08-28
+TXN-0302,2025-08-06,C-114,Meridian Tech,Platform Standard Monthly,subscription_billing,2549.24,USD,CON-114,2025-08-01,2025-08-28
+TXN-0303,2025-08-14,C-114,Meridian Tech,API Overage,usage_billing,2209.39,USD,CON-114,2025-08-01,2025-08-28
+TXN-0304,2025-09-19,C-100,TechFlow Inc,Platform Basic Monthly,subscription_billing,1350.74,USD,CON-100,2025-09-01,2025-09-28
+TXN-0305,2025-09-19,C-101,DataSphere Ltd,Platform Standard Monthly,subscription_billing,2457.64,USD,CON-101,2025-09-01,2025-09-28
+TXN-0306,2025-09-17,C-101,DataSphere Ltd,Platform Basic Monthly,subscription_billing,1156.99,USD,CON-101,2025-09-01,2025-09-28
+TXN-0307,2025-09-13,C-101,DataSphere Ltd,API Overage,usage_billing,4526.62,USD,CON-101,2025-09-01,2025-09-28
+TXN-0308,2025-09-05,C-102,CloudNine Corp,Platform Standard Monthly,subscription_billing,2606.26,USD,CON-102,2025-09-01,2025-09-28
+TXN-0309,2025-09-20,C-102,CloudNine Corp,API Overage,subscription_refund,-134.94,USD,CON-102,2025-09-01,2025-09-28
+TXN-0310,2025-09-17,C-102,CloudNine Corp,API Overage,usage_billing,644.94,USD,CON-102,2025-09-01,2025-09-28
+TXN-0311,2025-09-10,C-103,InnovateTech,Platform Basic Monthly,subscription_billing,1158.52,USD,CON-103,2025-09-01,2025-09-28
+TXN-0312,2025-09-07,C-103,InnovateTech,API Overage,usage_billing,2968.89,USD,CON-103,2025-09-01,2025-09-28
+TXN-0313,2025-09-04,C-104,Quantum Analytics,Platform Standard Monthly,subscription_billing,2544.35,USD,CON-104,2025-09-01,2025-09-28
+TXN-0314,2025-09-10,C-105,NexGen Solutions,Platform Basic Monthly,subscription_billing,1134.13,USD,CON-105,2025-09-01,2025-09-28
+TXN-0315,2025-09-06,C-106,AlphaWave Digital,Platform Basic Monthly,subscription_billing,1121.17,USD,CON-106,2025-09-01,2025-09-28
+TXN-0316,2025-09-12,C-107,Prisma Systems,Platform Standard Monthly,subscription_billing,2363.09,USD,CON-107,2025-09-01,2025-09-28
+TXN-0317,2025-09-05,C-107,Prisma Systems,Platform Basic Monthly,subscription_billing,1224.5,USD,CON-107,2025-09-01,2025-09-28
+TXN-0318,2025-09-09,C-107,Prisma Systems,API Overage,usage_billing,4872.88,USD,CON-107,2025-09-01,2025-09-28
+TXN-0319,2025-09-02,C-108,Vertex AI Labs,Platform Standard Monthly,subscription_billing,2558.75,USD,CON-108,2025-09-01,2025-09-28
+TXN-0320,2025-09-17,C-108,Vertex AI Labs,Platform Basic Monthly,subscription_billing,1314.88,USD,CON-108,2025-09-01,2025-09-28
+TXN-0321,2025-09-07,C-109,FusionPoint,Platform Basic Monthly,subscription_billing,1173.1,USD,CON-109,2025-09-01,2025-09-28
+TXN-0322,2025-09-07,C-110,ClearPath Software,Platform Standard Monthly,subscription_billing,2751.25,USD,CON-110,2025-09-01,2025-09-28
+TXN-0323,2025-09-22,C-110,ClearPath Software,Platform Basic Monthly,subscription_refund,-562.89,USD,CON-110,2025-09-01,2025-09-28
+TXN-0324,2025-09-14,C-110,ClearPath Software,Platform Basic Monthly,subscription_billing,1247.73,USD,CON-110,2025-09-01,2025-09-28
+TXN-0325,2025-09-02,C-110,ClearPath Software,API Overage,usage_billing,5131.96,USD,CON-110,2025-09-01,2025-09-28
+TXN-0326,2025-09-18,C-111,BlueSky Dynamics,Platform Standard Monthly,subscription_billing,2378.32,USD,CON-111,2025-09-01,2025-09-28
+TXN-0327,2025-09-08,C-112,Pinnacle Data,Platform Standard Monthly,subscription_billing,2499.33,USD,CON-112,2025-09-01,2025-09-28
+TXN-0328,2025-09-06,C-112,Pinnacle Data,Platform Basic Monthly,subscription_billing,1204.07,USD,CON-112,2025-09-01,2025-09-28
+TXN-0329,2025-09-18,C-112,Pinnacle Data,API Overage,usage_billing,4543.1,USD,CON-112,2025-09-01,2025-09-28
+TXN-0330,2025-09-05,C-113,Catalyst Corp,Platform Standard Monthly,subscription_billing,2669.51,USD,CON-113,2025-09-01,2025-09-28
+TXN-0331,2025-09-09,C-113,Catalyst Corp,Platform Basic Monthly,subscription_billing,1152.33,USD,CON-113,2025-09-01,2025-09-28
+TXN-0332,2025-09-13,C-113,Catalyst Corp,API Overage,usage_billing,4916.37,USD,CON-113,2025-09-01,2025-09-28
+TXN-0333,2025-09-05,C-114,Meridian Tech,Platform Standard Monthly,subscription_billing,2494.37,USD,CON-114,2025-09-01,2025-09-28
+TXN-0334,2025-09-05,C-114,Meridian Tech,Platform Basic Monthly,subscription_billing,1234.78,USD,CON-114,2025-09-01,2025-09-28
+TXN-0335,2025-09-06,C-114,Meridian Tech,API Overage,usage_billing,1864.08,USD,CON-114,2025-09-01,2025-09-28
+TXN-0336,2025-10-03,C-100,TechFlow Inc,Platform Standard Monthly,subscription_billing,2234.77,USD,CON-100,2025-10-01,2025-10-28
+TXN-0337,2025-10-01,C-100,TechFlow Inc,Platform Basic Monthly,subscription_billing,1163.53,USD,CON-100,2025-10-01,2025-10-28
+TXN-0338,2025-10-11,C-101,DataSphere Ltd,Platform Standard Monthly,subscription_billing,2310.19,USD,CON-101,2025-10-01,2025-10-28
+TXN-0339,2025-10-16,C-101,DataSphere Ltd,Platform Basic Monthly,subscription_billing,1274.63,USD,CON-101,2025-10-01,2025-10-28
+TXN-0340,2025-10-01,C-101,DataSphere Ltd,API Overage,usage_billing,493.31,USD,CON-101,2025-10-01,2025-10-28
+TXN-0341,2025-10-06,C-102,CloudNine Corp,Platform Standard Monthly,subscription_billing,2562.98,USD,CON-102,2025-10-01,2025-10-28
+TXN-0342,2025-10-04,C-102,CloudNine Corp,Platform Basic Monthly,subscription_billing,1169.81,USD,CON-102,2025-10-01,2025-10-28
+TXN-0343,2025-10-18,C-102,CloudNine Corp,API Overage,usage_billing,4340.28,USD,CON-102,2025-10-01,2025-10-28
+TXN-0344,2025-10-14,C-103,InnovateTech,API Overage,usage_billing,1447.93,USD,CON-103,2025-10-01,2025-10-28
+TXN-0345,2025-10-16,C-104,Quantum Analytics,Platform Standard Monthly,subscription_billing,2462.05,USD,CON-104,2025-10-01,2025-10-28
+TXN-0346,2025-10-13,C-104,Quantum Analytics,Platform Basic Monthly,subscription_billing,1232.45,USD,CON-104,2025-10-01,2025-10-28
+TXN-0347,2025-10-19,C-104,Quantum Analytics,API Overage,usage_billing,1954.17,USD,CON-104,2025-10-01,2025-10-28
+TXN-0348,2025-10-22,C-105,NexGen Solutions,Platform Standard Monthly,subscription_refund,-527.86,USD,CON-105,2025-10-01,2025-10-28
+TXN-0349,2025-10-14,C-105,NexGen Solutions,Platform Standard Monthly,subscription_billing,2472.07,USD,CON-105,2025-10-01,2025-10-28
+TXN-0350,2025-10-09,C-105,NexGen Solutions,Platform Basic Monthly,subscription_billing,1179.04,USD,CON-105,2025-10-01,2025-10-28
+TXN-0351,2025-10-16,C-105,NexGen Solutions,API Overage,usage_billing,4541.18,USD,CON-105,2025-10-01,2025-10-28
+TXN-0352,2025-10-05,C-106,AlphaWave Digital,Platform Basic Monthly,subscription_billing,1302.64,USD,CON-106,2025-10-01,2025-10-28
+TXN-0353,2025-10-14,C-107,Prisma Systems,Platform Standard Monthly,subscription_billing,2435.26,USD,CON-107,2025-10-01,2025-10-28
+TXN-0354,2025-10-08,C-107,Prisma Systems,Platform Basic Monthly,subscription_billing,1214.46,USD,CON-107,2025-10-01,2025-10-28
+TXN-0355,2025-10-04,C-107,Prisma Systems,API Overage,usage_billing,4333.4,USD,CON-107,2025-10-01,2025-10-28
+TXN-0356,2025-10-09,C-108,Vertex AI Labs,Platform Standard Monthly,subscription_billing,2638.63,USD,CON-108,2025-10-01,2025-10-28
+TXN-0357,2025-10-12,C-108,Vertex AI Labs,Platform Basic Monthly,subscription_billing,1193.67,USD,CON-108,2025-10-01,2025-10-28
+TXN-0358,2025-10-13,C-108,Vertex AI Labs,API Overage,usage_billing,1560.34,USD,CON-108,2025-10-01,2025-10-28
+TXN-0359,2025-10-15,C-109,FusionPoint,Platform Standard Monthly,subscription_refund,-471.0,USD,CON-109,2025-10-01,2025-10-28
+TXN-0360,2025-10-11,C-109,FusionPoint,Platform Standard Monthly,subscription_billing,2510.3,USD,CON-109,2025-10-01,2025-10-28
+TXN-0361,2025-10-17,C-109,FusionPoint,Platform Basic Monthly,subscription_billing,1112.55,USD,CON-109,2025-10-01,2025-10-28
+TXN-0362,2025-10-17,C-109,FusionPoint,API Overage,usage_billing,728.76,USD,CON-109,2025-10-01,2025-10-28
+TXN-0363,2025-10-11,C-110,ClearPath Software,Platform Standard Monthly,subscription_billing,2427.27,USD,CON-110,2025-10-01,2025-10-28
+TXN-0364,2025-10-13,C-110,ClearPath Software,API Overage,usage_billing,1335.47,USD,CON-110,2025-10-01,2025-10-28
+TXN-0365,2025-10-08,C-111,BlueSky Dynamics,Platform Standard Monthly,subscription_billing,2411.33,USD,CON-111,2025-10-01,2025-10-28
+TXN-0366,2025-10-18,C-111,BlueSky Dynamics,Platform Basic Monthly,subscription_billing,1248.64,USD,CON-111,2025-10-01,2025-10-28
+TXN-0367,2025-10-05,C-111,BlueSky Dynamics,API Overage,usage_billing,4211.35,USD,CON-111,2025-10-01,2025-10-28
+TXN-0368,2025-10-09,C-112,Pinnacle Data,Platform Standard Monthly,subscription_billing,2471.89,USD,CON-112,2025-10-01,2025-10-28
+TXN-0369,2025-10-14,C-112,Pinnacle Data,Platform Basic Monthly,subscription_billing,1161.0,USD,CON-112,2025-10-01,2025-10-28
+TXN-0370,2025-10-02,C-112,Pinnacle Data,API Overage,usage_billing,3318.71,USD,CON-112,2025-10-01,2025-10-28
+TXN-0371,2025-10-12,C-113,Catalyst Corp,Platform Standard Monthly,subscription_billing,2579.57,USD,CON-113,2025-10-01,2025-10-28
+TXN-0372,2025-10-06,C-113,Catalyst Corp,API Overage,usage_billing,702.4,USD,CON-113,2025-10-01,2025-10-28
+TXN-0373,2025-10-06,C-114,Meridian Tech,Platform Standard Monthly,subscription_billing,2371.54,USD,CON-114,2025-10-01,2025-10-28
+TXN-0374,2025-10-15,C-114,Meridian Tech,Platform Basic Monthly,subscription_billing,1231.68,USD,CON-114,2025-10-01,2025-10-28
+TXN-0375,2025-11-07,C-100,TechFlow Inc,Platform Standard Monthly,subscription_billing,2561.09,USD,CON-100,2025-11-01,2025-11-28
+TXN-0376,2025-11-15,C-100,TechFlow Inc,Platform Basic Monthly,subscription_billing,1175.75,USD,CON-100,2025-11-01,2025-11-28
+TXN-0377,2025-11-17,C-101,DataSphere Ltd,Platform Standard Monthly,subscription_billing,2516.18,USD,CON-101,2025-11-01,2025-11-28
+TXN-0378,2025-11-17,C-101,DataSphere Ltd,API Overage,usage_billing,4612.47,USD,CON-101,2025-11-01,2025-11-28
+TXN-0379,2025-11-14,C-102,CloudNine Corp,Platform Basic Monthly,subscription_billing,1322.14,USD,CON-102,2025-11-01,2025-11-28
+TXN-0380,2025-11-05,C-102,CloudNine Corp,API Overage,usage_billing,1110.07,USD,CON-102,2025-11-01,2025-11-28
+TXN-0381,2025-11-17,C-103,InnovateTech,Platform Standard Monthly,subscription_billing,2455.63,USD,CON-103,2025-11-01,2025-11-28
+TXN-0382,2025-11-19,C-104,Quantum Analytics,Platform Standard Monthly,subscription_billing,2829.12,USD,CON-104,2025-11-01,2025-11-28
+TXN-0383,2025-11-17,C-104,Quantum Analytics,Platform Basic Monthly,subscription_billing,1091.66,USD,CON-104,2025-11-01,2025-11-28
+TXN-0384,2025-11-03,C-104,Quantum Analytics,API Overage,usage_billing,1570.97,USD,CON-104,2025-11-01,2025-11-28
+TXN-0385,2025-11-19,C-105,NexGen Solutions,Platform Basic Monthly,subscription_billing,1275.61,USD,CON-105,2025-11-01,2025-11-28
+TXN-0386,2025-11-02,C-105,NexGen Solutions,API Overage,usage_billing,767.15,USD,CON-105,2025-11-01,2025-11-28
+TXN-0387,2025-11-05,C-106,AlphaWave Digital,Platform Standard Monthly,subscription_billing,2312.13,USD,CON-106,2025-11-01,2025-11-28
+TXN-0388,2025-11-12,C-106,AlphaWave Digital,Platform Basic Monthly,subscription_billing,1192.52,USD,CON-106,2025-11-01,2025-11-28
+TXN-0389,2025-11-11,C-106,AlphaWave Digital,API Overage,usage_billing,1751.9,USD,CON-106,2025-11-01,2025-11-28
+TXN-0390,2025-11-14,C-107,Prisma Systems,Platform Standard Monthly,subscription_billing,2839.49,USD,CON-107,2025-11-01,2025-11-28
+TXN-0391,2025-11-15,C-107,Prisma Systems,Platform Basic Monthly,subscription_billing,1183.82,USD,CON-107,2025-11-01,2025-11-28
+TXN-0392,2025-11-19,C-107,Prisma Systems,API Overage,usage_billing,1483.87,USD,CON-107,2025-11-01,2025-11-28
+TXN-0393,2025-11-18,C-108,Vertex AI Labs,Platform Basic Monthly,subscription_billing,1187.73,USD,CON-108,2025-11-01,2025-11-28
+TXN-0394,2025-11-16,C-108,Vertex AI Labs,API Overage,usage_billing,3607.18,USD,CON-108,2025-11-01,2025-11-28
+TXN-0395,2025-11-03,C-109,FusionPoint,Platform Standard Monthly,subscription_billing,2550.88,USD,CON-109,2025-11-01,2025-11-28
+TXN-0396,2025-11-15,C-109,FusionPoint,Platform Basic Monthly,subscription_refund,-276.45,USD,CON-109,2025-11-01,2025-11-28
+TXN-0397,2025-11-05,C-109,FusionPoint,Platform Basic Monthly,subscription_billing,1167.86,USD,CON-109,2025-11-01,2025-11-28
+TXN-0398,2025-11-02,C-110,ClearPath Software,Platform Standard Monthly,subscription_billing,2607.08,USD,CON-110,2025-11-01,2025-11-28
+TXN-0399,2025-11-13,C-110,ClearPath Software,API Overage,usage_billing,1802.93,USD,CON-110,2025-11-01,2025-11-28
+TXN-0400,2025-11-08,C-111,BlueSky Dynamics,Platform Standard Monthly,subscription_billing,2268.02,USD,CON-111,2025-11-01,2025-11-28
+TXN-0401,2025-11-14,C-112,Pinnacle Data,Platform Standard Monthly,subscription_billing,2553.31,USD,CON-112,2025-11-01,2025-11-28
+TXN-0402,2025-11-19,C-113,Catalyst Corp,Platform Standard Monthly,subscription_billing,2457.62,USD,CON-113,2025-11-01,2025-11-28
+TXN-0403,2025-11-08,C-113,Catalyst Corp,Platform Basic Monthly,subscription_billing,1018.83,USD,CON-113,2025-11-01,2025-11-28
+TXN-0404,2025-11-14,C-113,Catalyst Corp,API Overage,usage_billing,2894.62,USD,CON-113,2025-11-01,2025-11-28
+TXN-0405,2025-11-14,C-114,Meridian Tech,Platform Standard Monthly,subscription_billing,2549.05,USD,CON-114,2025-11-01,2025-11-28
+TXN-0406,2025-11-09,C-114,Meridian Tech,Platform Basic Monthly,subscription_billing,1169.46,USD,CON-114,2025-11-01,2025-11-28
+TXN-0407,2025-11-06,C-114,Meridian Tech,API Overage,usage_billing,484.93,USD,CON-114,2025-11-01,2025-11-28
+TXN-0408,2025-12-11,C-100,TechFlow Inc,Platform Standard Monthly,subscription_billing,2501.92,USD,CON-100,2025-12-01,2025-12-31
+TXN-0409,2025-12-18,C-100,TechFlow Inc,Platform Basic Monthly,subscription_billing,1264.18,USD,CON-100,2025-12-01,2025-12-31
+TXN-0410,2025-12-12,C-100,TechFlow Inc,API Overage,usage_billing,4638.31,USD,CON-100,2025-12-01,2025-12-31
+TXN-0411,2025-12-11,C-101,DataSphere Ltd,Platform Basic Monthly,subscription_billing,1227.69,USD,CON-101,2025-12-01,2025-12-31
+TXN-0412,2025-12-15,C-101,DataSphere Ltd,API Overage,usage_billing,4101.96,USD,CON-101,2025-12-01,2025-12-31
+TXN-0413,2025-12-03,C-102,CloudNine Corp,Platform Standard Monthly,subscription_billing,2196.85,USD,CON-102,2025-12-01,2025-12-31
+TXN-0414,2025-12-12,C-102,CloudNine Corp,Platform Basic Monthly,subscription_billing,1198.19,USD,CON-102,2025-12-01,2025-12-31
+TXN-0415,2025-12-09,C-102,CloudNine Corp,API Overage,usage_billing,1192.38,USD,CON-102,2025-12-01,2025-12-31
+TXN-0416,2025-12-13,C-103,InnovateTech,Platform Standard Monthly,subscription_billing,2667.33,USD,CON-103,2025-12-01,2025-12-31
+TXN-0417,2025-12-01,C-103,InnovateTech,API Overage,usage_billing,1073.13,USD,CON-103,2025-12-01,2025-12-31
+TXN-0418,2025-12-10,C-104,Quantum Analytics,Platform Standard Monthly,subscription_billing,2457.51,USD,CON-104,2025-12-01,2025-12-31
+TXN-0419,2025-12-02,C-104,Quantum Analytics,Platform Basic Monthly,subscription_billing,1135.06,USD,CON-104,2025-12-01,2025-12-31
+TXN-0420,2025-12-11,C-105,NexGen Solutions,Platform Standard Monthly,subscription_billing,2598.57,USD,CON-105,2025-12-01,2025-12-31
+TXN-0421,2025-12-16,C-105,NexGen Solutions,Platform Basic Monthly,subscription_billing,1284.71,USD,CON-105,2025-12-01,2025-12-31
+TXN-0422,2025-12-10,C-105,NexGen Solutions,API Overage,usage_billing,4757.31,USD,CON-105,2025-12-01,2025-12-31
+TXN-0423,2025-12-09,C-107,Prisma Systems,Platform Standard Monthly,subscription_billing,2520.6,USD,CON-107,2025-12-01,2025-12-31
+TXN-0424,2025-12-08,C-107,Prisma Systems,Platform Basic Monthly,subscription_billing,1203.05,USD,CON-107,2025-12-01,2025-12-31
+TXN-0425,2025-12-04,C-108,Vertex AI Labs,Platform Standard Monthly,subscription_billing,2411.64,USD,CON-108,2025-12-01,2025-12-31
+TXN-0426,2025-12-18,C-108,Vertex AI Labs,Platform Basic Monthly,subscription_billing,1197.44,USD,CON-108,2025-12-01,2025-12-31
+TXN-0427,2025-12-10,C-108,Vertex AI Labs,API Overage,usage_billing,4128.55,USD,CON-108,2025-12-01,2025-12-31
+TXN-0428,2025-12-11,C-109,FusionPoint,Platform Standard Monthly,subscription_billing,2391.72,USD,CON-109,2025-12-01,2025-12-31
+TXN-0429,2025-12-18,C-109,FusionPoint,API Overage,usage_billing,1896.49,USD,CON-109,2025-12-01,2025-12-31
+TXN-0430,2025-12-01,C-110,ClearPath Software,Platform Standard Monthly,subscription_billing,2490.51,USD,CON-110,2025-12-01,2025-12-31
+TXN-0431,2025-12-05,C-110,ClearPath Software,Platform Basic Monthly,subscription_billing,1200.23,USD,CON-110,2025-12-01,2025-12-31
+TXN-0432,2025-12-14,C-110,ClearPath Software,API Overage,usage_billing,3604.77,USD,CON-110,2025-12-01,2025-12-31
+TXN-0433,2025-12-16,C-111,BlueSky Dynamics,Platform Basic Monthly,subscription_billing,1174.25,USD,CON-111,2025-12-01,2025-12-31
+TXN-0434,2025-12-12,C-111,BlueSky Dynamics,API Overage,usage_billing,2398.6,USD,CON-111,2025-12-01,2025-12-31
+TXN-0435,2025-12-19,C-112,Pinnacle Data,Platform Standard Monthly,subscription_billing,2520.34,USD,CON-112,2025-12-01,2025-12-31
+TXN-0436,2025-12-11,C-112,Pinnacle Data,Platform Basic Monthly,subscription_billing,1202.48,USD,CON-112,2025-12-01,2025-12-31
+TXN-0437,2025-12-15,C-112,Pinnacle Data,API Overage,usage_billing,3891.31,USD,CON-112,2025-12-01,2025-12-31
+TXN-0438,2025-12-12,C-113,Catalyst Corp,Platform Standard Monthly,subscription_billing,2344.58,USD,CON-113,2025-12-01,2025-12-31
+TXN-0439,2025-12-08,C-113,Catalyst Corp,API Overage,usage_billing,4814.59,USD,CON-113,2025-12-01,2025-12-31
+TXN-0440,2025-12-13,C-114,Meridian Tech,Platform Basic Monthly,subscription_billing,1123.84,USD,CON-114,2025-12-01,2025-12-31
+TXN-0441,2025-12-03,C-114,Meridian Tech,API Overage,usage_billing,1400.51,USD,CON-114,2025-12-01,2025-12-31

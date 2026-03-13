@@ -1,0 +1,77 @@
+{
+  "period": "2025-01",
+  "reconciliations": [
+    {
+      "account": "1200 - Accounts Receivable",
+      "gl_balance": 2850000,
+      "sub_ledger_balance": 2850000,
+      "variance": 0,
+      "status": "reconciled",
+      "preparer": "Revenue Team",
+      "reviewer": "Senior Accountant"
+    },
+    {
+      "account": "2400 - Deferred Revenue (Current)",
+      "gl_balance": 1305000,
+      "sub_ledger_balance": 1302500,
+      "variance": 2500,
+      "status": "variance_under_threshold",
+      "preparer": "Revenue Team",
+      "reviewer": "Senior Accountant"
+    },
+    {
+      "account": "2410 - Deferred Revenue (Non-Current)",
+      "gl_balance": 485000,
+      "sub_ledger_balance": 485000,
+      "variance": 0,
+      "status": "reconciled",
+      "preparer": "Revenue Team",
+      "reviewer": "Senior Accountant"
+    },
+    {
+      "account": "1300 - Contract Assets",
+      "gl_balance": 125000,
+      "sub_ledger_balance": 118500,
+      "variance": 6500,
+      "status": "variance_under_threshold",
+      "preparer": "Senior Accountant",
+      "reviewer": "Revenue Manager"
+    },
+    {
+      "account": "1310 - Unbilled Revenue",
+      "gl_balance": 95000,
+      "sub_ledger_balance": 82000,
+      "variance": 13000,
+      "status": "variance_over_threshold",
+      "preparer": "Senior Accountant",
+      "reviewer": "Revenue Manager"
+    },
+    {
+      "account": "4100 - Subscription Revenue",
+      "gl_balance": 875000,
+      "sub_ledger_balance": 875000,
+      "variance": 0,
+      "status": "reconciled",
+      "preparer": "Revenue Team",
+      "reviewer": "Senior Accountant"
+    },
+    {
+      "account": "4200 - Usage Revenue",
+      "gl_balance": 125000,
+      "sub_ledger_balance": 125000,
+      "variance": 0,
+      "status": "reconciled",
+      "preparer": "Revenue Team",
+      "reviewer": "Senior Accountant"
+    },
+    {
+      "account": "4300 - Services Revenue",
+      "gl_balance": 48000,
+      "sub_ledger_balance": 48000,
+      "variance": 0,
+      "status": "reconciled",
+      "preparer": "Revenue Team",
+      "reviewer": "Senior Accountant"
+    }
+  ]
+}
